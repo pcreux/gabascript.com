@@ -1,1 +1,42 @@
-gabascript.com
+<html>
+  <head>
+    <title>gabascript.com</title>
+    <style>
+      html {
+        background: salmon url(gabascript.jpg) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+      }
+      h1 {
+        position: absolute;
+        left: 50px;
+        bottom: 20px;
+      }
+      h1 a {
+        color: salmon;
+        font-family: monospace;
+        font-size: 88px;
+        text-decoration: none;
+      }
+      h1 a:hover {
+        color: grey;
+      }
+
+      @media (max-width: 1000px) {
+        h1 a {
+          font-size: 66px;
+        }
+      }
+
+      @media (max-width: 600px) {
+        h1 a {
+          font-size: 44px;
+        }
+      }
+    </style>
+  <body>
+    <h1><a href="https://github.com/BrewhouseTeam/yolk">gabascript</a></h1>
+  </body>
+</html>
